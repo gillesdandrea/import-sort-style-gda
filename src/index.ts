@@ -23,7 +23,7 @@ export default function(styleApi: IStyleAPI): Array<IStyleItem> {
     unicode,
   } = styleApi;
 
-  const fixedOrder = ["babel-polyfill", "react", "react-dom", "prop-types"];
+  const fixedOrder = ["@babel/polyfill", "babel-polyfill", "react", "react-dom", "prop-types"];
   const fixedOrderMatch: IMatcherFunction = (imported) => {
     return fixedOrder.indexOf(imported.moduleName) >= 0;
    };
