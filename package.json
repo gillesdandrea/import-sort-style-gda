@@ -12,7 +12,7 @@
     "watch:test": "mocha -w --compilers ts:ts-node/register,tsx:ts-node/register --recursive test"
   },
   "author": "Gilles d'Andréa (https://github.com/gillesdandrea)",
-  "repository": "gillesdandrea/import-import-sort-style-gda",
+  "repository": "github:gillesdandrea/import-import-sort-style-gda",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.1.4",
