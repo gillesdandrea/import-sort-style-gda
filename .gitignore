@@ -1,7 +1,10 @@
+.cache/
 .history/
 .npm/
-lib/
 node_modules/
-*.log
-npm-debug.log*
+dist/
+.eslintcache
+.stylelintcache
+*-debug.log*
+*-error.log*
 .DS_Store
