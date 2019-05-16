@@ -1,6 +1,6 @@
 {
   "name": "import-sort-style-gda",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "GdA import-sort style. Used in gda-scripts.",
   "repository": "github:gillesdandrea/import-import-sort-style-gda",
   "license": "MIT",
@@ -18,8 +18,8 @@
     "import-sort-style": "^6.0.0"
   },
   "devDependencies": {
-    "tslint": "^5.14.0",
+    "tslint": "^5.16.0",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.4.5"
   }
 }

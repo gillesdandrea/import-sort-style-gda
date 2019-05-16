@@ -23,7 +23,16 @@ export default function(styleApi: IStyleAPI): IStyleItem[] {
     unicode,
   } = styleApi;
 
-  const fixedOrder = ['@babel/polyfill', 'babel-polyfill', 'react', 'react-dom', 'react-native', 'prop-types'];
+  const fixedOrder = [
+    '@babel/polyfill',
+    'babel-polyfill',
+    'core-js/stable',
+    'regenerator-runtime/runtime',
+    'react',
+    'react-dom',
+    'react-native',
+    'prop-types',
+  ];
   const fixedOrderMatch: IMatcherFunction = imported => {
     return fixedOrder.indexOf(imported.moduleName) >= 0;
   };
